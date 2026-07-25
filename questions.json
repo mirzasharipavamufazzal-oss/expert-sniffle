@@ -1,0 +1,62 @@
+{
+  "A1": [
+    { "q": "I ___ a student.", "options": ["am", "is", "are", "be"], "answer": 0 },
+    { "q": "She ___ from Italy.", "options": ["am", "is", "are", "be"], "answer": 1 },
+    { "q": "They ___ two cats.", "options": ["has", "have", "having", "is"], "answer": 1 },
+    { "q": "This is ___ apple.", "options": ["a", "an", "the", "some"], "answer": 1 },
+    { "q": "What ___ your name?", "options": ["is", "are", "am", "be"], "answer": 0 },
+    { "q": "He ___ to school every day.", "options": ["go", "goes", "going", "gone"], "answer": 1 },
+    { "q": "There ___ a book on the table.", "options": ["is", "are", "am", "be"], "answer": 0 },
+    { "q": "Choose the correct plural: one child, two ___", "options": ["childs", "children", "childes", "child"], "answer": 1 },
+    { "q": "I don't have ___ money.", "options": ["some", "any", "a", "an"], "answer": 1 },
+    { "q": "My birthday is ___ July.", "options": ["at", "on", "in", "for"], "answer": 2 }
+  ],
+  "A2": [
+    { "q": "Yesterday I ___ to the cinema.", "options": ["go", "went", "gone", "going"], "answer": 1 },
+    { "q": "She is ___ than her brother.", "options": ["tall", "taller", "tallest", "more tall"], "answer": 1 },
+    { "q": "I ___ never been to Japan.", "options": ["have", "has", "had", "was"], "answer": 0 },
+    { "q": "If it rains, I ___ stay home.", "options": ["will", "would", "am", "did"], "answer": 0 },
+    { "q": "He is good ___ playing football.", "options": ["in", "at", "on", "for"], "answer": 1 },
+    { "q": "We ___ watching a movie when you called.", "options": ["are", "were", "was", "be"], "answer": 1 },
+    { "q": "This is the ___ book I've ever read.", "options": ["good", "better", "best", "most good"], "answer": 2 },
+    { "q": "I'm looking forward ___ you.", "options": ["to see", "to seeing", "seeing", "see"], "answer": 1 },
+    { "q": "You ___ finish the report by Friday.", "options": ["must", "can", "may", "would"], "answer": 0 },
+    { "q": "She has lived here ___ 2015.", "options": ["for", "since", "during", "at"], "answer": 1 }
+  ],
+  "B1": [
+    { "q": "If I ___ more time, I would travel more.", "options": ["have", "had", "will have", "having"], "answer": 1 },
+    { "q": "The report ___ by the manager yesterday.", "options": ["wrote", "was written", "is writing", "writes"], "answer": 1 },
+    { "q": "By next year, she ___ her degree.", "options": ["will finish", "will have finished", "finishes", "finished"], "answer": 1 },
+    { "q": "He suggested ___ the meeting.", "options": ["to postpone", "postponing", "postpone", "postponed"], "answer": 1 },
+    { "q": "I wish I ___ how to swim.", "options": ["know", "knew", "known", "will know"], "answer": 1 },
+    { "q": "The film, ___ was based on a true story, won an award.", "options": ["that", "which", "who", "whose"], "answer": 1 },
+    { "q": "Despite ___ tired, she kept working.", "options": ["being", "be", "to be", "been"], "answer": 0 },
+    { "q": "Choose the correct phrase: 'to make a decision'", "options": ["do a decision", "make a decision", "take a decision", "have a decision"], "answer": 1 },
+    { "q": "She's used to ___ up early.", "options": ["get", "getting", "got", "gets"], "answer": 1 },
+    { "q": "Not only ___ late, but he also forgot the documents.", "options": ["he was", "was he", "he is", "is he"], "answer": 1 }
+  ],
+  "B2": [
+    { "q": "Had I known about the traffic, I ___ earlier.", "options": ["would leave", "would have left", "left", "will leave"], "answer": 1 },
+    { "q": "The company's profits ___ steadily over the past decade.", "options": ["rise", "rose", "have risen", "rising"], "answer": 2 },
+    { "q": "It's high time we ___ a decision.", "options": ["make", "made", "will make", "making"], "answer": 1 },
+    { "q": "She spoke as if she ___ everything about the topic.", "options": ["knows", "knew", "had known", "know"], "answer": 1 },
+    { "q": "Choose the best synonym for 'meticulous'.", "options": ["careless", "thorough", "quick", "lazy"], "answer": 1 },
+    { "q": "No sooner ___ the office than the phone rang.", "options": ["he left", "had he left", "he had left", "did he leave"], "answer": 1 },
+    { "q": "The proposal was rejected ___ its many merits.", "options": ["because of", "despite", "due to", "owing to"], "answer": 1 },
+    { "q": "He is said ___ the fastest runner in the school.", "options": ["to be", "being", "be", "that is"], "answer": 0 },
+    { "q": "Choose the correct idiom meaning 'to give up': ", "options": ["throw in the towel", "hit the books", "spill the beans", "break the ice"], "answer": 0 },
+    { "q": "Rarely ___ such a talented musician.", "options": ["we have seen", "have we seen", "we saw", "did we saw"], "answer": 1 }
+  ],
+  "C1": [
+    { "q": "The committee's decision, ___ contentious, was ultimately upheld.", "options": ["albeit", "moreover", "therefore", "meanwhile"], "answer": 0 },
+    { "q": "Choose the closest meaning of 'ubiquitous'.", "options": ["rare", "omnipresent", "expensive", "ancient"], "answer": 1 },
+    { "q": "Were it not for his intervention, the deal ___ fallen through.", "options": ["would have", "will have", "had", "has"], "answer": 0 },
+    { "q": "The findings ___ considerable doubt on the original hypothesis.", "options": ["cast", "raise", "bring", "give"], "answer": 0 },
+    { "q": "Choose the correct collocation: to 'reach' a ___", "options": ["consensus", "agreement fully", "decision hardly", "conclusion barely"], "answer": 0 },
+    { "q": "Little ___ that the merger would collapse within months.", "options": ["did anyone suspect", "anyone suspected", "anyone did suspect", "suspected anyone"], "answer": 0 },
+    { "q": "Choose the best paraphrase for 'the plan backfired'.", "options": ["the plan succeeded", "the plan had the opposite effect", "the plan was postponed", "the plan was approved"], "answer": 1 },
+    { "q": "His argument, though eloquent, was fundamentally ___.", "options": ["specious", "concise", "lucid", "candid"], "answer": 0 },
+    { "q": "Only after much deliberation ___ the board reach a verdict.", "options": ["did", "does", "had", "was"], "answer": 0 },
+    { "q": "Choose the word closest in meaning to 'ephemeral'.", "options": ["permanent", "fleeting", "sturdy", "essential"], "answer": 1 }
+  ]
+}

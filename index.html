@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>Learn & Earn — English Quiz</title>
+<script src="https://telegram.org/js/telegram-web-app.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="app">
+
+  <!-- HOME / LEVEL PATH SCREEN -->
+  <section id="screen-home" class="screen">
+    <header class="topbar">
+      <div class="brand">
+        <span class="brand-mark">L&E</span>
+        <h1>Learn &amp; Earn</h1>
+      </div>
+      <div class="coin-pill" id="coin-pill">
+        <span class="coin-dot"></span>
+        <span id="coin-count">0</span>
+      </div>
+    </header>
+
+    <p class="tagline">Answer correctly. Earn 10 coins each time. Climb from A1 to C1.</p>
+
+    <div class="path" id="level-path" aria-label="Level path from A1 to C1">
+      <!-- stepping-stone level nodes injected by app.js -->
+    </div>
+
+    <div class="hint" id="home-hint">Tap a level to start your quiz.</div>
+  </section>
+
+  <!-- QUIZ SCREEN -->
+  <section id="screen-quiz" class="screen hidden">
+    <header class="quiz-topbar">
+      <button class="back-btn" id="quiz-back" aria-label="Back to levels">←</button>
+      <div class="quiz-level-tag" id="quiz-level-tag">A1</div>
+      <div class="coin-pill small" id="coin-pill-quiz">
+        <span class="coin-dot"></span>
+        <span id="coin-count-quiz">0</span>
+      </div>
+    </header>
+
+    <div class="progress-dots" id="progress-dots"></div>
+
+    <div class="question-card">
+      <p class="question-index" id="question-index">Question 1 of 10</p>
+      <h2 class="question-text" id="question-text">Loading…</h2>
+      <div class="options" id="options-list"></div>
+      <p class="feedback" id="feedback"></p>
+    </div>
+  </section>
+
+  <!-- LEVEL COMPLETE SCREEN -->
+  <section id="screen-complete" class="screen hidden">
+    <div class="complete-card">
+      <div class="complete-badge" id="complete-badge">A1</div>
+      <h2>Level complete!</h2>
+      <p class="complete-stats" id="complete-stats">You got 0 of 10 correct.</p>
+      <p class="complete-coins" id="complete-coins">+0 coins earned</p>
+      <div class="complete-actions">
+        <button class="btn primary" id="btn-back-home">Back to levels</button>
+        <button class="btn ghost" id="btn-retry">Retry level</button>
+      </div>
+    </div>
+  </section>
+
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
